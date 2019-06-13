@@ -1,0 +1,38 @@
+#canvasSnake {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px;
+    left: 30%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    max-width: 100%; /* Full width */
+    max-height: 100%; /* Full height */
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    border: 1px solid #888;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.btn-dft {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-weight: bold;
+    font-color: Black;
+    margin: 10px;
+}
+.btn-dft:hover,
+.btn-dft:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

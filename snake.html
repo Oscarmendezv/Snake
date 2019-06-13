@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Snake Game</title>
+      <link rel="stylesheet" type="text/css" href="estilos.css">
+    </head>
+    <body>
+      <canvas id="canvasSnake" width="608" height="608"></canvas>
+
+      <!-- Modal de reinicio del juego -->
+      <div class="modal" id="modalMuerte">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5>You died...</h5>
+          </div>
+          <div class="modal-body">
+            <p>Want to restart game?</p>
+          </div>
+          <div class=modal-footer">
+            <button value="Aceptar" class="btn-dft" onclick="reiniciar()">Acept</button>
+            <button value="Cancelar" class="btn-dft" onclick="cerrarModal()">Cancel</button>
+          </div>
+        </div>
+      </div>
+      <script src="snake.js" type="text/javascript"></script>
+    </body>
+</html>
